@@ -158,7 +158,7 @@ Python was used to:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/customer-support-sql-python-analysis.git
+git clone https://github.com/lingeshwarieashwari-wq/customer-support-sql-python-analysis.git
 ```
 
 ### 2. Install dependencies
