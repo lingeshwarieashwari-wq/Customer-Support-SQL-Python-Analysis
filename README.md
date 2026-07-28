@@ -153,43 +153,6 @@ Python was used to:
 
 ---
 
-# ▶️ How to Run This Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/lingeshwarieashwari-wq/customer-support-sql-python-analysis.git
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Create the database
-
-Run:
-
-```
-SQL/01_database_setup.sql
-```
-
-### 4. Import the dataset
-
-Run:
-
-```
-Python/mysql_import.ipynb
-```
-
-### 5. Execute the notebooks
-
-- eda_analysis.ipynb
-- visualization.ipynb
-
----
-
 # 📌 Future Improvements
 
 - Build an interactive Power BI dashboard
