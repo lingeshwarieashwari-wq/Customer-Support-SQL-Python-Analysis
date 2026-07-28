@@ -1,37 +1,61 @@
 # 📊 Customer Support SQL & Python Analysis
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
 An end-to-end **Data Analytics** project that analyzes customer support ticket data using **MySQL**, **SQL**, **Python**, and **Data Visualization** to generate actionable business insights.
 
 ---
 
-## 🚀 Project Overview
+## 📌 Project Overview
 
-Customer support teams generate thousands of tickets every month. This project analyzes customer support data to identify trends, evaluate agent performance, monitor SLA compliance, and measure customer satisfaction.
+This project analyzes customer support ticket data to uncover operational insights using SQL and Python.
 
-The project demonstrates the complete data analysis workflow:
+The analysis focuses on:
 
-- Database Design using MySQL
-- SQL Analysis (Basic → Advanced)
-- Business Case Studies
-- Exploratory Data Analysis (EDA)
-- Data Visualization using Python
-- Business Insights & Recommendations
+- Ticket volume analysis
+- Agent performance evaluation
+- SLA compliance
+- Resolution time analysis
+- Customer Satisfaction (CSAT)
+- Support channel performance
+- Business-driven recommendations
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Project Highlights
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Data Analysis |
-| Pandas | Data Manipulation |
+✔ Designed a MySQL database for customer support data
+
+✔ Wrote 40+ SQL queries (Basic → Advanced)
+
+✔ Performed Exploratory Data Analysis (EDA) using Python
+
+✔ Built multiple business visualizations
+
+✔ Created business case studies using SQL
+
+✔ Generated actionable insights from customer support data
+
+---
+
+## 🛠 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
 | MySQL | Database |
 | SQL | Data Querying |
-| SQLAlchemy | Database Connection |
-| PyMySQL | MySQL Connector |
+| Python | Data Analysis |
+| Pandas | Data Manipulation |
 | Matplotlib | Visualization |
-| Seaborn | Statistical Visualization |
-| Jupyter Notebook | Development Environment |
+| Seaborn | Visualization |
+| SQLAlchemy | MySQL Connection |
+| Jupyter Notebook | Development |
 
 ---
 
@@ -142,14 +166,27 @@ Python was used to:
 
 ---
 
+## 🚀 Skills Demonstrated
+
+- SQL
+- MySQL
+- Python
+- Pandas
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Analytics
+- Data Cleaning
+- Business Case Studies
+
+---
+
 # 💡 Key Business Insights
 
-- Most support requests are concentrated in a few ticket categories.
-- Resolution time differs across ticket categories.
-- SLA compliance provides a measurable indicator of operational efficiency.
-- Customer satisfaction varies across support channels.
-- Ticket trends help identify peak workload periods.
-- Agent performance can be measured using ticket volume and customer satisfaction.
+- High ticket volumes were concentrated in a few support categories.
+- Resolution times varied across ticket categories.
+- SLA compliance can be used to monitor operational efficiency.
+- Customer satisfaction differed by support channel.
+- Agent performance can be measured using ticket volume and CSAT scores.
 
 ---
 
@@ -162,22 +199,16 @@ Python was used to:
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 About Me
 
 **Lingeshwari M**
 
-Data Analytics Enthusiast
+Aspiring Data Analyst with experience in customer support operations and a strong interest in SQL, Python, data visualization, and business analytics.
 
-**Skills**
-
-- SQL
-- Python
-- Pandas
-- MySQL
-- Excel
-- Power BI
-- Data Visualization
-
+📫 Connect with me on LinkedIn:
+(https://www.linkedin.com/in/lingeshwari-manthiram-6b2348192/)
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
