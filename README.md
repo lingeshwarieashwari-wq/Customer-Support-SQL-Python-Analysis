@@ -109,25 +109,49 @@ The project includes visualizations such as:
 
 ### Tickets by Category
 
-![Tickets by Category](Images/tickets-by-category.png)
+![Tickets by Category](tickets-by-category.png)
 
 ---
 
 ### Ticket Status Distribution
 
-![Ticket Status](Images/ticket-status.png)
+![Ticket Status](ticket-status.png)
 
 ---
 
 ### Monthly Ticket Trend
 
-![Monthly Ticket Trend](Images/monthly-ticket-trend.png)
+![Monthly Ticket Trend](monthly-ticket-trend.png)
 
 ---
 
 ### Top Support Agents
 
-![Top Agents](Images/top-agents.png)
+![Top Agents](top-agents.png)
+
+---
+
+### SLA Compliance
+
+![SLA Compliance](sla-compliance.png)
+
+---
+
+### Priority Distribution
+
+![Priority Distribution](priority-distribution.png)
+
+---
+
+### Average CSAT by Channel
+
+![CSAT by Channel](csat-channel.png)
+
+---
+
+### Resolution Time by Category
+
+![Resolution Time](resolution-time-category.png)
 
 ---
 
