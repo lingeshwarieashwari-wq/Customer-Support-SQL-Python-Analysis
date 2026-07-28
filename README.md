@@ -1,50 +1,44 @@
 # 📊 Customer Support SQL & Python Analysis
 
-An end-to-end Data Analytics project that analyzes customer support ticket data using **MySQL**, **Python**, and **Data Visualization**.
+An end-to-end **Data Analytics** project that analyzes customer support ticket data using **MySQL**, **SQL**, **Python**, and **Data Visualization** to generate actionable business insights.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Overview
 
-This project demonstrates how SQL and Python can be used together to analyze customer support operations, identify trends, measure performance, and generate actionable business insights.
+Customer support teams generate thousands of tickets every month. This project analyzes customer support data to identify trends, evaluate agent performance, monitor SLA compliance, and measure customer satisfaction.
 
-The analysis includes:
+The project demonstrates the complete data analysis workflow:
 
-- SQL queries from basic to advanced
-- Business case studies
+- Database Design using MySQL
+- SQL Analysis (Basic → Advanced)
+- Business Case Studies
 - Exploratory Data Analysis (EDA)
-- Data visualization using Python
-- Customer Support KPI analysis
+- Data Visualization using Python
+- Business Insights & Recommendations
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- Python
-- Pandas
-- MySQL
-- SQLAlchemy
-- PyMySQL
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+| Technology | Purpose |
+|------------|---------|
+| Python | Data Analysis |
+| Pandas | Data Manipulation |
+| MySQL | Database |
+| SQL | Data Querying |
+| SQLAlchemy | Database Connection |
+| PyMySQL | MySQL Connector |
+| Matplotlib | Visualization |
+| Seaborn | Statistical Visualization |
+| Jupyter Notebook | Development Environment |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 Customer Support SQL Python Analysis/
-│
-├── Dataset/
-│   └── customer_support_data.csv
-│
-├── Images/
-│
-├── Python/
-│   ├── mysql_import.ipynb
-│   ├── eda_analysis.ipynb
-│   └── visualization.ipynb
 │
 ├── SQL/
 │   ├── 01_database_setup.sql
@@ -53,156 +47,174 @@ Customer Support SQL Python Analysis/
 │   ├── 04_advanced_queries.sql
 │   └── 05_business_case_study.sql
 │
-├── requirements.txt
+├── Python/
+│   ├── mysql_import.ipynb
+│   ├── eda_analysis.ipynb
+│   └── visualization.ipynb
+│
+├── Dataset/
+│
 ├── README.md
+├── requirements.txt
 └── LICENSE
 ```
 
 ---
 
-## 📊 SQL Analysis
+# 📊 SQL Analysis
 
-The SQL section includes:
+The SQL module includes more than **40 business-focused queries**, covering:
 
 - Database Creation
 - Table Creation
-- Basic SQL Queries
-- Intermediate SQL Queries
-- Advanced SQL
+- Data Exploration
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
 - CASE Statements
 - Window Functions
-- CTEs
+- Common Table Expressions (CTEs)
 - Subqueries
 - Business Case Studies
 
 ---
 
-## 🐍 Python Analysis
+# 🐍 Python Analysis
 
-Python was used for:
+Python was used to:
 
-- Connecting to MySQL
-- Reading SQL tables into Pandas
-- Exploratory Data Analysis
-- Missing Value Analysis
-- Descriptive Statistics
-- Business Insights
-
----
-
-## 📈 Visualizations
-
-The project includes visualizations such as:
-
-- Tickets by Category
-- Ticket Status Distribution
-- Priority Distribution
-- Monthly Ticket Trend
-- Top Support Agents
-- Resolution Time by Category
-- Average CSAT by Channel
-- SLA Compliance
+- Connect to MySQL
+- Import SQL tables into Pandas
+- Perform Exploratory Data Analysis
+- Analyze Missing Values
+- Generate Summary Statistics
+- Create Business Visualizations
 
 ---
 
-## 📷 Sample Visualizations
+# 📈 Sample Visualizations
 
-### Tickets by Category
+## Tickets by Category
 
 ![Tickets by Category](tickets-by-category.png)
 
 ---
 
-### Ticket Status Distribution
+## Ticket Status Distribution
 
 ![Ticket Status](ticket-status.png)
 
 ---
 
-### Monthly Ticket Trend
+## Monthly Ticket Trend
 
 ![Monthly Ticket Trend](monthly-ticket-trend.png)
 
 ---
 
-### Top Support Agents
+## Top Support Agents
 
-![Top Agents](top-agents.png)
+![Top Support Agents](top-agents.png)
 
 ---
 
-### SLA Compliance
+## SLA Compliance
 
 ![SLA Compliance](sla-compliance.png)
 
 ---
 
-### Priority Distribution
+## Priority Distribution
 
 ![Priority Distribution](priority-distribution.png)
 
 ---
 
-### Average CSAT by Channel
-
-![CSAT by Channel](csat-channel.png)
-
----
-
-### Resolution Time by Category
+## Resolution Time by Category
 
 ![Resolution Time](resolution-time-category.png)
 
 ---
 
-## 💡 Key Business Insights
+## Average CSAT by Channel
 
-- Most customer requests belong to a few high-volume categories.
-- Ticket resolution time varies across categories.
-- SLA compliance can be monitored to improve operational efficiency.
-- Customer satisfaction differs by support channel.
-- Agent performance can be evaluated using ticket volume and CSAT.
+![CSAT by Channel](csat-channel.png)
 
 ---
 
-## 🚀 How to Run the Project
+# 💡 Key Business Insights
 
-### Clone the repository
+- Most support requests are concentrated in a few ticket categories.
+- Resolution time differs across ticket categories.
+- SLA compliance provides a measurable indicator of operational efficiency.
+- Customer satisfaction varies across support channels.
+- Ticket trends help identify peak workload periods.
+- Agent performance can be measured using ticket volume and customer satisfaction.
+
+---
+
+# ▶️ How to Run This Project
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/customer-support-sql-python-analysis.git
 ```
 
-### Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Import the dataset into MySQL
+### 3. Create the database
 
 Run:
 
 ```
-01_database_setup.sql
+SQL/01_database_setup.sql
 ```
 
-Then import the dataset using:
+### 4. Import the dataset
+
+Run:
 
 ```
 Python/mysql_import.ipynb
 ```
 
-Run the remaining notebooks:
+### 5. Execute the notebooks
 
 - eda_analysis.ipynb
 - visualization.ipynb
 
 ---
 
-## 👩‍💻 Author
+# 📌 Future Improvements
+
+- Build an interactive Power BI dashboard
+- Develop a machine learning model to predict ticket priority
+- Create an automated reporting pipeline
+- Deploy the project using Streamlit
+
+---
+
+# 👩‍💻 Author
 
 **Lingeshwari M**
 
-- Data Analytics Enthusiast
-- SQL | Python | Excel | Power BI
+Data Analytics Enthusiast
+
+**Skills**
+
+- SQL
+- Python
+- Pandas
+- MySQL
+- Excel
+- Power BI
+- Data Visualization
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
